@@ -71,7 +71,7 @@ function checkAnswer(currentLevel) {
     }
   } else {
     $("body").addClass("game-over");
-    $("#level-title").text("Game Over, Press Any Key to Restart");
+    $("#level-title").text("Game Over, Press Any Key or Click Here to Restart");
     setTimeout(() => {
       $("body").removeClass("game-over");
     }, 500);
