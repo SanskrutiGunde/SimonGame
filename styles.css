@@ -5,19 +5,19 @@ body {
 
 #level-title {
   font-family: "Press Start 2P", cursive;
-  font-size: 3rem;
+  font-size: 2.8rem;
   margin: 2%;
   color: #fef2bf;
 }
 
 .container {
-  display: block;
-  width: 50%;
-  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 .btn {
-  margin: 20px;
+  margin: 10px;
   display: inline-block;
   height: 200px;
   width: 200px;
@@ -54,5 +54,19 @@ body {
   font-family: "Press Start 2P", cursive;
   color: aqua;
   text-align: justify;
+  font-size: 0.8rem;
   padding: 0 2rem;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  min-height: calc(100vh - 180px);
+}
+
+.footer {
+  height: 100px;
 }
