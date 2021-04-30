@@ -36,13 +36,16 @@ $(document).ready(function () {
       //console.log(userClickedPattern);
     });
   }
-  $(document).keypress(function () {
-    if (!started) {
-      nextSequence();
-      started = true;
-    }
-  });
+  $(document).keypress(init);
+  $("#level-title").click(init);
 });
+
+function init() {
+  if (!started) {
+    nextSequence();
+    started = true;
+  }
+}
 
 function animatePress(currentColor) {
   $("#" + currentColor).addClass("pressed");
