@@ -26,6 +26,12 @@ function playSound(name) {
 }
 
 $(document).ready(function () {
+  new TypeIt("#help", {
+    speed: 50,
+    strings:
+      "Simon will give the first signal. Repeat the signal by pressing the same color lens. Simon will duplicate the first signal and add one. If you fail to repeat a sequence exactly, the game will be over.",
+  }).go();
+
   for (var i = 0; i < buttonColors.length; i++) {
     $("#" + buttonColors[i]).click(function () {
       var userChosenColor = this.id;
