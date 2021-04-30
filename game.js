@@ -3,6 +3,7 @@ var gamePattern = [];
 var userClickedPattern = [];
 var buttonColors = ["red", "green", "blue", "yellow"];
 var started = false;
+var record = 0;
 
 function nextSequence() {
   userClickedPattern = [];
@@ -17,6 +18,11 @@ function nextSequence() {
   playSound(randomChosenColor);
   level++;
   $("h1").text("Level " + level);
+  if (record < level - 1) {
+    record = level - 1;
+  }
+  $("#highScore").text(`HI: ${record}`);
+
   return randomChosenColor;
 }
 

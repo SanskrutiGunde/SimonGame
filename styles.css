@@ -23,6 +23,20 @@ body {
   margin-top: 2%;
   color: #fef2bf;
 }
+#highScore {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  color: #fef2bf;
+  margin-left: 4%;
+  white-space: nowrap;
+}
+.score {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
 
 .container {
   display: grid;
@@ -35,7 +49,7 @@ body {
   display: inline-block;
   height: 200px;
   width: 200px;
-  border: 10px solid black;
+  border: 10px solid rgba(102, 214, 190, 0.568);
   border-radius: 20%;
 }
 
