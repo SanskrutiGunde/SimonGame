@@ -70,3 +70,14 @@ body {
 .footer {
   height: 100px;
 }
+.social {
+  margin-top: 2%;
+  display: inline-flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-evenly;
+}
+
+.social > a > i {
+  font-size: 2.8rem;
+}
