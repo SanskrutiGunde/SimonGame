@@ -1,3 +1,5 @@
+# Simon Game
+
 <p align="center">
   <a href="https://sanskrutigunde.github.io/SimonGame/" rel="noopener">
  <img width=200px height=200px src="logo/logo.png" alt="Project logo"></a>
@@ -14,10 +16,6 @@
 </div>
 
 ---
-
-<p align="center"> Simon is an game of memory skill.
-    <br> 
-</p>
 
 ## 📝 Table of Contents
 
