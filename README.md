@@ -22,11 +22,22 @@
 ## 📝 Table of Contents
 
 - [About](#about)
-- [Authors](#authors)
+- [Getting Started](#getting_started)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [Author](#author)
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Simon is an game of memory skill.
+
+## 🏁 Getting Started <a name = "getting_started"></a>
+
+To see how it works you can open the app and then Simon will give the first signal. Repeat the signal by pressing the same color lens. Simon will duplicate the first signal and add one. If you fail to repeat a sequence exactly, the game will be over.|
+
+## 🎈 Usage <a name = "usage"></a>
+
+This game is a fun way to practice improving body awareness, while also incorporating other motor skills, including balance.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
@@ -35,7 +46,7 @@ Write about 1-2 paragraphs describing the purpose of your project.
 - JavaScript
 - Jquery
 
-## ✍️ Authors <a name = "authors"></a>
+## ✍️ Author <a name = "author"></a>
 
 - [@SanskrutiGunde](https://github.com/SanskrutiGunde) &nbsp;
   <span align="center">
