@@ -1,3 +1,5 @@
+# Simon Game
+
 <p align="center">
   <a href="https://sanskrutigunde.github.io/SimonGame/" rel="noopener">
  <img width=200px height=200px src="logo/logo.png" alt="Project logo"></a>
