@@ -17,10 +17,6 @@
 
 ---
 
-<p align="center"> Simon is an game of memory skill.
-    <br> 
-</p>
-
 ## 📝 Table of Contents
 
 - [About](#about)
